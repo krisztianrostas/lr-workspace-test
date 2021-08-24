@@ -1,0 +1,4 @@
+Bundle-Name: liferay-mvc-portlet
+Bundle-SymbolicName: com.liferay.test
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.test.constants
