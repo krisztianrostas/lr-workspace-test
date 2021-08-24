@@ -1,0 +1,10 @@
+Bundle-Name: liferay-service-builder-api
+Bundle-SymbolicName: com.liferay.test.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.test.service.exception,\
+	com.liferay.test.service.model,\
+	com.liferay.test.service.service,\
+	com.liferay.test.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../liferay-service-builder-service/service.xml
