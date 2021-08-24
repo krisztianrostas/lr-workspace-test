@@ -1,0 +1,4 @@
+Bundle-Name: another-mvc-portlet
+Bundle-SymbolicName: another-mvc-portlet
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.another.portlet.constants
