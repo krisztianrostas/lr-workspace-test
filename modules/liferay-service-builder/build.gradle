@@ -1,3 +1,4 @@
+
 tasks.withType(JavaCompile) {
 
 	// Generated classes using Jodd library are unable to be read when compiled against JDK 11

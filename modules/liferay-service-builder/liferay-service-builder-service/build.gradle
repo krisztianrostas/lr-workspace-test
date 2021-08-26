@@ -1,3 +1,9 @@
+apply plugin: "com.liferay.plugin"
+
+liferay {
+	deployDir = file("/Users/rostaskrisztian/projects/NG/release")
+}
+
 dependencies {
 	compile project(":modules:liferay-service-builder:liferay-service-builder-api")
 

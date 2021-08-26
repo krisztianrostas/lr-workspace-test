@@ -1,3 +1,10 @@
+apply plugin: "com.liferay.plugin"
+
+liferay {
+	deployDir = file("/Users/rostaskrisztian/projects/NG/release")
+}
+
+
 dependencies {
 	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
 
